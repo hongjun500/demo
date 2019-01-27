@@ -1,7 +1,7 @@
 package com.boot.demo.pojo;
 import java.util.Date;
 
-public class User {
+public class User{
 	private Integer id;
 	private String name;
 	private Date birthday;

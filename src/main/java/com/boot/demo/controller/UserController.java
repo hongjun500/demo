@@ -20,7 +20,7 @@ public class UserController {
 
      @RequestMapping(value = "/search")
      public User searchId(Integer id){
-         return userService.findUser(3);
+         return userService.findUser(id);
      }
 
      @RequestMapping(value = "/add")

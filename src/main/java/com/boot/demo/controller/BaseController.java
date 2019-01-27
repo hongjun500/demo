@@ -24,4 +24,5 @@ public class BaseController {
     public List<Base> searchAll(){
         return baseService.searchBaseAll();
     }
+
 }
